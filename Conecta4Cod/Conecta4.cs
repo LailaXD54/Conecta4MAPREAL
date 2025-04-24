@@ -157,7 +157,6 @@ namespace Conecta4
         /// <param name="incrx"></param>
         /// <param name="incry"></param>
         /// <returns></returns>
-       /*
         public int CuantasSeguidas(Tablero tab, int ox, int oy, int incrx, int incry) //usado mas tarde como privado para el metodo publico de Gana, incrementa de x y y para un for en gana que recorre el tablero será (1,1)(1,0)(-1,0)(-1,1)(0,1)(0,-1)
         {
             TipoCasilla expected = tab.GetCasilla(ox, oy);
@@ -172,21 +171,6 @@ namespace Conecta4
             return ret;
         }
 
-        */
-        public int CuantasSeguidas(Tablero tab, int ox, int oy, int incrx, int incry) //usado mas tarde como privado para el metodo publico de Gana, incrementa de x y y para un for en gana que recorre el tablero será (1,1)(1,0)(-1,0)(-1,1)(0,1)(0,-1)
-        {
-            TipoCasilla expected = tab.GetCasilla(ox, oy);
-
-            int ret = 1;
-            if (expected != TipoCasilla.VACIA) {
-                while (ox >= 0 && ox < tab.GetNumColumnas() && oy >= 0 && oy < tab.GetNumFilas() && tab.GetCasilla(ox + incrx, oy + incry) == expected) {
-                    ox += incrx;
-                    oy += incry;
-                    ++ret;
-                }
-            }
-            return ret;
-        }
         public Tablero TableroInicial()
         {
             Tablero tab = new Tablero();

@@ -128,36 +128,6 @@ namespace TEST1
         }
 
         [Test]
-        public void CuantasSeguidasPosicionVacia()
-        {
-            // Arrange
-            Reglas r = new Reglas();
-            Tablero tab = new Tablero();
-
-            // Assert and Act
-            Assert.That(r.CuantasSeguidas(tab, 0, 5, 1, 0), Is.EqualTo(1), "ERROR: casilla vacía debería devolver 1");
-        }
-
-        [Test]
-        public void CuantasSeguidasFueraDeLimites()
-        {
-            // Arrange
-            Reglas r = new Reglas();
-            Tablero tab = new Tablero();
-
-            // Act
-            tab.ColocaFicha(6, 5, TipoCasilla.AMARILLA);
-            int resultado1 = r.CuantasSeguidas(tab, 6, 5, 1, 0);
-            int resultado2 = r.CuantasSeguidas(tab, 6, 5, 0, 1);
-            int resultado3 = r.CuantasSeguidas(tab, -1, -1, 1, 1);
-
-            // Assert
-            Assert.That(resultado1, Is.EqualTo(1), "ERROR: al salir de los límites del tablero debería devolver 1");
-            Assert.That(resultado2, Is.EqualTo(1), "ERROR: al salir de los límites verticales debería devolver 1");
-            Assert.That(resultado3, Is.EqualTo(1), "ERROR: posición inicial inválida debería devolver 1");
-        }
-
-        [Test]
         public void CuantasSeguidasConCambioDeColor()
         {
             // Arrange

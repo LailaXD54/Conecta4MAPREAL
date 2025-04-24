@@ -3,18 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\Lenovo\\OneDrive\\Documentos\\GitHub\\Conecta4MAPREAL\\Conecta4Cod\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{FA8266F6-3BFE-4F9F-A452-3AED796F0997}|..\\TESTS1\\TESTS1.csproj|c:\\users\\lenovo\\onedrive\\documentos\\github\\conecta4mapreal\\tests1\\testreglas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|c:\\users\\lenovo\\onedrive\\documentos\\github\\conecta4mapreal\\conecta4cod\\conecta4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|solutionrelative:conecta4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FA8266F6-3BFE-4F9F-A452-3AED796F0997}|..\\TESTS1\\TESTS1.csproj|c:\\users\\lenovo\\onedrive\\documentos\\github\\conecta4mapreal\\tests1\\testtablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|c:\\users\\lenovo\\onedrive\\documentos\\github\\conecta4mapreal\\conecta4cod\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA8266F6-3BFE-4F9F-A452-3AED796F0997}|..\\TESTS1\\TESTS1.csproj|c:\\users\\lenovo\\onedrive\\documentos\\github\\conecta4mapreal\\tests1\\testreglas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA8266F6-3BFE-4F9F-A452-3AED796F0997}|..\\TESTS1\\TESTS1.csproj|c:\\users\\lenovo\\onedrive\\documentos\\github\\conecta4mapreal\\tests1\\testtablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -32,7 +32,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "TestTablero.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Documentos\\GitHub\\Conecta4MAPREAL\\TESTS1\\TestTablero.cs",
               "RelativeDocumentMoniker": "..\\TESTS1\\TestTablero.cs",
@@ -45,33 +45,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "TestReglas.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Documentos\\GitHub\\Conecta4MAPREAL\\TESTS1\\TestReglas.cs",
               "RelativeDocumentMoniker": "..\\TESTS1\\TestReglas.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Documentos\\GitHub\\Conecta4MAPREAL\\TESTS1\\TestReglas.cs",
               "RelativeToolTip": "..\\TESTS1\\TestReglas.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAewIoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAWwH8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T19:30:47.215Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Conecta4.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Documentos\\GitHub\\Conecta4MAPREAL\\Conecta4Cod\\Conecta4.cs",
               "RelativeDocumentMoniker": "Conecta4.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Documentos\\GitHub\\Conecta4MAPREAL\\Conecta4Cod\\Conecta4.cs",
               "RelativeToolTip": "Conecta4.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAewFYAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAhwKwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T17:27:52.232Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "GUI.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Documentos\\GitHub\\Conecta4MAPREAL\\Conecta4Cod\\GUI.cs",
               "RelativeDocumentMoniker": "GUI.cs",
