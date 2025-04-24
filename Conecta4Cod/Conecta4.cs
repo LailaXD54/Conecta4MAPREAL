@@ -82,14 +82,14 @@ namespace Conecta4
             {
                 try
                 {
-                    if (tablero[fil, n] == TipoCasilla.VACIA) tablero[fil, n] = tipo;
-                    else if (n < columnas)
-                    {
-                        while (fil < filas && !cae)
-                        {
+                    if (tablero[fil, n] == TipoCasilla.VACIA) {
+                        tablero[fil, n] = tipo;
+                        cae = true;
+                    }
+                    else if (n < columnas) {
+                        while (fil < filas && !cae) {
                             fil++;
-                            if (tablero[fil, n] == TipoCasilla.VACIA)
-                            {
+                            if (tablero[fil, n] == TipoCasilla.VACIA) {
                                 tablero[fil, n] = tipo;
                                 cae = true;
                             }
