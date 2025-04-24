@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conecta4", "Conecta4.csproj", "{0536C66F-543B-401B-B0A2-5DEEE110114F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{0F790A36-255D-465E-A246-01817080461E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0536C66F-543B-401B-B0A2-5DEEE110114F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0536C66F-543B-401B-B0A2-5DEEE110114F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0536C66F-543B-401B-B0A2-5DEEE110114F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0536C66F-543B-401B-B0A2-5DEEE110114F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F790A36-255D-465E-A246-01817080461E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F790A36-255D-465E-A246-01817080461E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F790A36-255D-465E-A246-01817080461E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F790A36-255D-465E-A246-01817080461E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {994AFE57-E58B-4FDD-BB6D-0832878A7801}
+	EndGlobalSection
+EndGlobal
