@@ -5,3 +5,10 @@ D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.csproj.AssemblyReference.cache
 D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.csproj.CoreCompileInputs.cache
 D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.exe
 D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.pdb
+C:\Users\Lenovo\OneDrive\Documentos\GitHub\Conecta4MAPREAL\Conecta4Cod\bin\Debug\Conecta4.exe.config
+C:\Users\Lenovo\OneDrive\Documentos\GitHub\Conecta4MAPREAL\Conecta4Cod\bin\Debug\Conecta4.exe
+C:\Users\Lenovo\OneDrive\Documentos\GitHub\Conecta4MAPREAL\Conecta4Cod\bin\Debug\Conecta4.pdb
+C:\Users\Lenovo\OneDrive\Documentos\GitHub\Conecta4MAPREAL\Conecta4Cod\obj\Debug\Conecta4.csproj.AssemblyReference.cache
+C:\Users\Lenovo\OneDrive\Documentos\GitHub\Conecta4MAPREAL\Conecta4Cod\obj\Debug\Conecta4.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\OneDrive\Documentos\GitHub\Conecta4MAPREAL\Conecta4Cod\obj\Debug\Conecta4.exe
+C:\Users\Lenovo\OneDrive\Documentos\GitHub\Conecta4MAPREAL\Conecta4Cod\obj\Debug\Conecta4.pdb

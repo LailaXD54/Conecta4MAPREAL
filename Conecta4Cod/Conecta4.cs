@@ -104,6 +104,13 @@ namespace Conecta4
             return cae;
 
         }
+        public int GetNumFilas() {
+            return filas;
+        }
+
+        public int GetNumColumnas() {
+            return columnas;
+        }
     }
 
 
@@ -150,6 +157,7 @@ namespace Conecta4
         /// <param name="incrx"></param>
         /// <param name="incry"></param>
         /// <returns></returns>
+       /*
         public int CuantasSeguidas(Tablero tab, int ox, int oy, int incrx, int incry) //usado mas tarde como privado para el metodo publico de Gana, incrementa de x y y para un for en gana que recorre el tablero será (1,1)(1,0)(-1,0)(-1,1)(0,1)(0,-1)
         {
             TipoCasilla expected = tab.GetCasilla(ox, oy);
@@ -163,16 +171,52 @@ namespace Conecta4
             }
             return ret;
         }
-         public Tablero TableroInicial()
+
+        */
+        public int CuantasSeguidas(Tablero tab, int ox, int oy, int incrx, int incry) //usado mas tarde como privado para el metodo publico de Gana, incrementa de x y y para un for en gana que recorre el tablero será (1,1)(1,0)(-1,0)(-1,1)(0,1)(0,-1)
+        {
+            TipoCasilla expected = tab.GetCasilla(ox, oy);
+
+            int ret = 1;
+            if (expected != TipoCasilla.VACIA) {
+                while (ox >= 0 && ox < tab.GetNumColumnas() && oy >= 0 && oy < tab.GetNumFilas() && tab.GetCasilla(ox + incrx, oy + incry) == expected) {
+                    ox += incrx;
+                    oy += incry;
+                    ++ret;
+                }
+            }
+            return ret;
+        }
+        public Tablero TableroInicial()
         {
             Tablero tab = new Tablero();
             return tab;
         }
 
-        //public bool Gana(Tablero tab, TipoCasilla tipo) //entra en esta la tabla y el que juega en este turno
-        //{
-            
-        //}
+        public bool Gana(Tablero tab, TipoCasilla tipo) //entra en esta la tabla y el que juega en este turno
+        {
+            for (int i = 0; i < tab.GetNumFilas(); i++) {
+                for (int j = 0; j < tab.GetNumColumnas(); j++) {
+                    if (tab.GetCasilla(j, i) == tipo) {
+                        int[,] direcciones = new int[,] {
+                            {1, 0},
+                            {0, 1},
+                            {1, 1},
+                            {-1, 1}
+                        };
+
+                        for (int k = 0; k < 2; k++) {
+                            int dx = direcciones[k, 0];
+                            int dy = direcciones[k, 1];
+
+                            if (CuantasSeguidas(tab, j, i, dx, dy) >= 4)
+                                return true;
+                        }
+                    }
+                }
+            }
+            return false;
+        }
 
     }
 
