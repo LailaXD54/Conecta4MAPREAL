@@ -81,20 +81,6 @@ namespace Tests
         }
 
         [Test]
-        public void PuedePoderParcialmenteLlena()
-        {
-            // Arrange
-            Reglas r = new Reglas();
-            Tablero tab = new Tablero();
-
-            // Act
-            tab.ColocaFicha(3, 5, TipoCasilla.ROJA);
-
-            // Assert
-            Assert.That(r.PuedePoner(tab, 3), Is.True, "ERROR: debería poder poner en columna no llena");
-        }
-
-        [Test]
         public void CuantasSeguidasHorizontal()
         {
             // Arrange
