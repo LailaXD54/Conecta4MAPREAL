@@ -1,0 +1,7 @@
+D:\ProjectosVS\Conecta4\bin\Debug\Conecta4.exe.config
+D:\ProjectosVS\Conecta4\bin\Debug\Conecta4.exe
+D:\ProjectosVS\Conecta4\bin\Debug\Conecta4.pdb
+D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.csproj.AssemblyReference.cache
+D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.csproj.CoreCompileInputs.cache
+D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.exe
+D:\ProjectosVS\Conecta4\obj\Debug\Conecta4.pdb

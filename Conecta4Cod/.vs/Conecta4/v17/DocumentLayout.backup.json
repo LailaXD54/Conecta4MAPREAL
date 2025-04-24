@@ -1,0 +1,102 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ProjectosVS\\Conecta4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|d:\\projectosvs\\conecta4\\conecta4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|solutionrelative:conecta4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F790A36-255D-465E-A246-01817080461E}|..\\Tests\\Tests.csproj|d:\\projectosvs\\tests\\testtablero.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F790A36-255D-465E-A246-01817080461E}|..\\Tests\\Tests.csproj|d:\\projectosvs\\tests\\testreglas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|D:\\ProjectosVS\\Conecta4\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F790A36-255D-465E-A246-01817080461E}|..\\Tests\\Tests.csproj|d:\\projectosvs\\tests\\tablerocompleto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GUI.cs",
+              "DocumentMoniker": "D:\\ProjectosVS\\Conecta4\\GUI.cs",
+              "RelativeDocumentMoniker": "GUI.cs",
+              "ToolTip": "D:\\ProjectosVS\\Conecta4\\GUI.cs",
+              "RelativeToolTip": "GUI.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAAwEoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T14:45:04.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Conecta4.cs",
+              "DocumentMoniker": "D:\\ProjectosVS\\Conecta4\\Conecta4.cs",
+              "RelativeDocumentMoniker": "Conecta4.cs",
+              "ToolTip": "D:\\ProjectosVS\\Conecta4\\Conecta4.cs",
+              "RelativeToolTip": "Conecta4.cs",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAswJYAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T09:08:01.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TestReglas.cs",
+              "DocumentMoniker": "D:\\ProjectosVS\\Tests\\TestReglas.cs",
+              "RelativeDocumentMoniker": "..\\Tests\\TestReglas.cs",
+              "ToolTip": "D:\\ProjectosVS\\Tests\\TestReglas.cs",
+              "RelativeToolTip": "..\\Tests\\TestReglas.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAYwF0AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T19:16:35.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TableroCompleto.cs",
+              "DocumentMoniker": "D:\\ProjectosVS\\Tests\\TableroCompleto.cs",
+              "RelativeDocumentMoniker": "..\\Tests\\TableroCompleto.cs",
+              "ToolTip": "D:\\ProjectosVS\\Tests\\TableroCompleto.cs",
+              "RelativeToolTip": "..\\Tests\\TableroCompleto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T19:32:11.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestTablero.cs",
+              "DocumentMoniker": "D:\\ProjectosVS\\Tests\\TestTablero.cs",
+              "RelativeDocumentMoniker": "..\\Tests\\TestTablero.cs",
+              "ToolTip": "D:\\ProjectosVS\\Tests\\TestTablero.cs",
+              "RelativeToolTip": "..\\Tests\\TestTablero.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAwBcAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T19:34:39.181Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
