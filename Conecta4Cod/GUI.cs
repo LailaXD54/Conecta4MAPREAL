@@ -109,32 +109,32 @@ namespace Conecta4
 
         public static void Main()
         {
-            Reglas reglas;
-            do
-            {
-                reglas = new Reglas();
-                Tablero tablero = reglas.TableroInicial();
-                TipoCasilla turno = reglas.QuienEmpieza();
-                turno = reglas.ColorContrario(turno); // El "último en poner" fue el contrario al que empieza
-                do
-                {
-                    turno = reglas.ColorContrario(turno);
-                    GUI.PintaTablero(tablero, turno);
-                    int col;
-                    do
-                    {
-                        col = GUI.PideColumna();
-                    } while (!tablero.CaeFicha(col - 1, turno));
+            //Reglas reglas;
+            //do
+            //{
+            //    reglas = new Reglas();
+            //    Tablero tablero = reglas.TableroInicial();
+            //    TipoCasilla turno = reglas.QuienEmpieza();
+            //    turno = reglas.ColorContrario(turno); // El "último en poner" fue el contrario al que empieza
+            //    do
+            //    {
+            //        turno = reglas.ColorContrario(turno);
+            //        GUI.PintaTablero(tablero, turno);
+            //        int col;
+            //        do
+            //        {
+            //            col = GUI.PideColumna();
+            //        } while (!tablero.CaeFicha(col - 1, turno));
 
-                } while (!reglas.Gana(tablero, turno) && !tablero.TableroCompleto());
-                if (!tablero.TableroCompleto())
-                    GUI.EscribeGanador(tablero, turno);
-                else
-                {
-                    GUI.PintaTablero(tablero, TipoCasilla.VACIA);
-                    Console.WriteLine(" ==== TABLAS ====");
-                }
-            } while (GUI.JugarOtra());
+            //    } while (!reglas.Gana(tablero, turno) && !tablero.TableroCompleto());
+            //    if (!tablero.TableroCompleto())
+            //        GUI.EscribeGanador(tablero, turno);
+            //    else
+            //    {
+            //        GUI.PintaTablero(tablero, TipoCasilla.VACIA);
+            //        Console.WriteLine(" ==== TABLAS ====");
+            //    }
+            //} while (GUI.JugarOtra());
         }
 
     }

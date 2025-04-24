@@ -4,9 +4,7 @@ namespace Conecta4
 {
     public class Conecta4
     {
-        static void Main(string[] args)
-        {
-        }
+        
     }
 
     public class Tablero
