@@ -16,13 +16,13 @@ namespace Conecta4
         {
             this.filas = filas;
             this.columnas = columnas;
-            tablero = new TipoCasilla[filas, columnas]; // [FILAS, COLUMNAS]
+            tablero = new TipoCasilla[filas, columnas];
 
             for (int fila = 0; fila < filas; fila++)
             {
                 for (int col = 0; col < columnas; col++)
                 {
-                    tablero[fila, col] = TipoCasilla.VACIA; // Consistente con [fila,col]
+                    tablero[fila, col] = TipoCasilla.VACIA;
                 }
             }
         }
@@ -73,7 +73,7 @@ namespace Conecta4
             }
         }
 
-        public bool CaeFicha(int n, TipoCasilla tipo) //Coloca la ficha en la columna n, y si hay algo entonces se pone arriba
+        public bool CaeFicha(int n, TipoCasilla tipo)
         {
             int fil = 0;
             bool cae = false;
@@ -114,14 +114,14 @@ namespace Conecta4
     }
 
 
-    public enum TipoCasilla //COMPLETADO
+    public enum TipoCasilla
     {
         VACIA,
         ROJA,
         AMARILLA
     }
 
-    public class Reglas //COMPLETADO
+    public class Reglas
     {
         public TipoCasilla QuienEmpieza()
         {
@@ -146,18 +146,7 @@ namespace Conecta4
             return t.GetCasilla(columna, 5) == TipoCasilla.VACIA;
         }
 
-        /// <summary>
-        /// Señalas cuantas casillas estan seguidas
-        /// ox y xy son para ver la columna y fila y de esta localizar la ficha colocada
-        /// 
-        /// </summary>
-        /// <param name="tab"></param>
-        /// <param name="ox"></param>
-        /// <param name="oy"></param>
-        /// <param name="incrx"></param>
-        /// <param name="incry"></param>
-        /// <returns></returns>
-        public int CuantasSeguidas(Tablero tab, int ox, int oy, int incrx, int incry) //usado mas tarde como privado para el metodo publico de Gana, incrementa de x y y para un for en gana que recorre el tablero será (1,1)(1,0)(-1,0)(-1,1)(0,1)(0,-1)
+        private int CuantasSeguidas(Tablero tab, int ox, int oy, int incrx, int incry) 
         {
             TipoCasilla expected = tab.GetCasilla(ox, oy);
             int ret = 1;
@@ -177,7 +166,7 @@ namespace Conecta4
             return tab;
         }
 
-        public bool Gana(Tablero tab, TipoCasilla tipo) //entra en esta la tabla y el que juega en este turno
+        public bool Gana(Tablero tab, TipoCasilla tipo)
         {
             for (int i = 0; i < tab.GetNumFilas(); i++) {
                 for (int j = 0; j < tab.GetNumColumnas(); j++) {

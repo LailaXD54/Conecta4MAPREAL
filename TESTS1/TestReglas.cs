@@ -3,7 +3,7 @@
 using NUnit.Framework;
 
 
-namespace TEST1
+namespace Tests
 {
     [TestFixture]
     public class TestReglas

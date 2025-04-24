@@ -2,7 +2,7 @@
 
 using Conecta4;
 
-namespace TEST1
+namespace Tests
 {
     [TestFixture]
     public class TableroCompleto

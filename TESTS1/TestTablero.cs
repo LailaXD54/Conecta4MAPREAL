@@ -2,15 +2,11 @@
 
 using Conecta4;
 
-namespace TEST1
+namespace Tests
 {
     [TestFixture]
     public class TestTablero
     {
-
-        /// <summary>
-        /// Constructor del tablero vacía su contenido.
-        /// </summary>
         [Test]
         public void TestCtor()
         {
@@ -30,7 +26,6 @@ namespace TEST1
             Assert.That(esquina4, Is.EqualTo(TipoCasilla.VACIA), "ERROR: nada más construirse un tablero tiene las esquinas vacías");
 
         }
-
 
         [Test]
         public void TestGetCasilla()
@@ -95,9 +90,7 @@ namespace TEST1
             // Arrange
             Tablero tab = new Tablero();
 
-            // Act
-
-            // Assert
+            // Act & Assert
             Assert.DoesNotThrow(() => tab.ColocaFicha(-1, 3, TipoCasilla.ROJA));
             Assert.DoesNotThrow(() => tab.ColocaFicha(3, -1, TipoCasilla.ROJA));
             Assert.DoesNotThrow(() => tab.ColocaFicha(-5, -10, TipoCasilla.ROJA));
@@ -115,9 +108,7 @@ namespace TEST1
             // Arrange
             Tablero tab = new Tablero();
 
-            // Act
-
-            // Assert
+            // Act & Assert
             Assert.DoesNotThrow(() => tab.GetCasilla(-1, 3));
             Assert.DoesNotThrow(() => tab.GetCasilla(3, -1));
             Assert.DoesNotThrow(() => tab.GetCasilla(-5, -10));
