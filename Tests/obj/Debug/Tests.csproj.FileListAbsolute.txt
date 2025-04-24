@@ -132,3 +132,5 @@ D:\ProjectosVS\Tests\obj\Debug\Tests.csproj.CoreCompileInputs.cache
 D:\ProjectosVS\Tests\obj\Debug\Tests.csproj.Up2Date
 D:\ProjectosVS\Tests\obj\Debug\Tests.dll
 D:\ProjectosVS\Tests\obj\Debug\Tests.pdb
+D:\Repositorio\Conecta4MAPREAL\Tests\obj\Debug\Tests.dll
+D:\Repositorio\Conecta4MAPREAL\Tests\obj\Debug\Tests.pdb

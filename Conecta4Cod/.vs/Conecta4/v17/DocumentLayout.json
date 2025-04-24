@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ProjectosVS\\Conecta4\\",
+  "WorkspaceRootPath": "D:\\Repositorio\\Conecta4MAPREAL\\Conecta4Cod\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|d:\\projectosvs\\conecta4\\conecta4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|d:\\repositorio\\conecta4mapreal\\conecta4cod\\conecta4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|solutionrelative:conecta4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|d:\\projectosvs\\conecta4\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|D:\\Repositorio\\Conecta4MAPREAL\\Conecta4Cod\\gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0536C66F-543B-401B-B0A2-5DEEE110114F}|Conecta4.csproj|solutionrelative:gui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,24 +28,23 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "GUI.cs",
-              "DocumentMoniker": "D:\\ProjectosVS\\Conecta4\\GUI.cs",
+              "DocumentMoniker": "D:\\Repositorio\\Conecta4MAPREAL\\Conecta4Cod\\GUI.cs",
               "RelativeDocumentMoniker": "GUI.cs",
-              "ToolTip": "D:\\ProjectosVS\\Conecta4\\GUI.cs",
+              "ToolTip": "D:\\Repositorio\\Conecta4MAPREAL\\Conecta4Cod\\GUI.cs",
               "RelativeToolTip": "GUI.cs",
               "ViewState": "AgIAAGUAAAAAAAAAAAAnwH4AAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T15:48:45.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-24T15:48:45.411Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Conecta4.cs",
-              "DocumentMoniker": "D:\\ProjectosVS\\Conecta4\\Conecta4.cs",
+              "DocumentMoniker": "D:\\Repositorio\\Conecta4MAPREAL\\Conecta4Cod\\Conecta4.cs",
               "RelativeDocumentMoniker": "Conecta4.cs",
-              "ToolTip": "D:\\ProjectosVS\\Conecta4\\Conecta4.cs",
+              "ToolTip": "D:\\Repositorio\\Conecta4MAPREAL\\Conecta4Cod\\Conecta4.cs",
               "RelativeToolTip": "Conecta4.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwAYAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAA9wDAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T15:47:54.176Z",
               "EditorCaption": ""

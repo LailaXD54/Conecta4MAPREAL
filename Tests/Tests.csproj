@@ -127,7 +127,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Conecta4\Conecta4.csproj">
+    <ProjectReference Include="..\Conecta4Cod\Conecta4.csproj">
       <Project>{0536c66f-543b-401b-b0a2-5deee110114f}</Project>
       <Name>Conecta4</Name>
     </ProjectReference>
